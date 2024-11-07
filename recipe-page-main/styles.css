@@ -1,0 +1,77 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(330, 100%, 98%);
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    line-height: 1.9;
+    
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(332, 51%, 32%);
+    font-weight: 400;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    text-indent: 5%;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.small-container {
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 750px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+hr {
+    
+    border: 1px solid #d7d5d5;
+}
+
+
+
+.values-nutrition {
+    color: hsl(332, 51%, 32%);
+   
+   font-weight: 600;
+   margin: 0%;
+    padding:0%;
+   display: inline;
+   text-indent: 5%;
+}
+
+
+
+ul {
+    text-indent: 5%;
+}
+
+ol {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+li {
+    text-indent: 5%;
+
+}
