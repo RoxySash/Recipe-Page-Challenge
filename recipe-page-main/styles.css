@@ -37,7 +37,7 @@ img {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    max-width: 750px;
+    max-width: 650px;
     padding: 20px;
     border-radius: 15px;
 }
@@ -45,7 +45,7 @@ img {
 
 hr {
     
-    border: 1px solid #d7d5d5;
+    border: 1px solid #f3f2f2;
 }
 
 
@@ -54,24 +54,10 @@ hr {
     color: hsl(332, 51%, 32%);
    
    font-weight: 600;
-   margin: 0%;
-    padding:0%;
-   display: inline;
-   text-indent: 5%;
+  
+   
 }
 
 
 
-ul {
-    text-indent: 5%;
-}
 
-ol {
-    padding-left: 10px;
-    margin-left: 10px;
-}
-
-li {
-    text-indent: 5%;
-
-}
