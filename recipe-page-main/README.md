@@ -62,13 +62,21 @@ body {
     
 }
 ```
+```css
+th,td {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid lightgray;
+}
 
+```
 
 
 
 ### Continued development
 
-
+This one was a little hard because there were so many different components with different styles. 
+I need to work on table elements. This challenege made me want to do more projects. 
 
 
 
