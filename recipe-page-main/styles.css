@@ -8,19 +8,33 @@ body {
     align-items: center;
     padding-top: 80px;
     padding-bottom: 80px;
-    line-height: 1.9;
+    line-height: 2rem;
+    margin: 0;
     
+    
+}
+
+:where(main ol, main ul) {
+    margin-inline-start: 0;
+    padding-inline-start: 23px;
+  }
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 500;
 }
 
 h2 {
     font-family: "Young Serif", serif;
     color: hsl(332, 51%, 32%);
     font-weight: 400;
+    padding-left: 0%;
+    margin-left: 0%;
 }
 
 h3 {
     color: hsl(332, 51%, 32%);
-    text-indent: 5%;
+    
 }
 
 img {
@@ -29,16 +43,18 @@ img {
 }
 .small-container {
     background-color: hsl(330, 100%, 98%);
-    padding: 10px;
-    margin: 5px;
-    border-radius: 6px;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    line-height: 2rem;
     
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
     max-width: 650px;
-    padding: 20px;
+    padding: 40px;
     border-radius: 15px;
 }
 
@@ -48,16 +64,59 @@ hr {
     border: 1px solid #f3f2f2;
 }
 
+    /* trying to indent the list items */
+
+
+    
+    ul {
+        text-indent: 3%;
+    }
+
+   ol li {
+    margin-left: 0;
+    padding-left: 1.5em;
+    list-style-position: outside;
+   }
+
+      ::marker {
+        color: hsl(332, 51%, 32%);
+        font-weight: 600;      
+}
+      
+/* How do I get this to look like a table should i even use a table or grid*/
 
 
 .values-nutrition {
     color: hsl(332, 51%, 32%);
-   
-   font-weight: 600;
-  
-   
+    font-weight: 600;
+    text-align: left;
+    
+}
+
+
+table {
+    width: 100%;
+    max-width: auto;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding-bottom: 0.7rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.nutrition {
+   text-indent: 10%;
+    
 }
 
 
 
 
+
+
+
+
+
+
+  
