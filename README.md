@@ -24,9 +24,18 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: (https://github.com/RoxySash/Recipe-Page-Challenge.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://roxysash.github.io/Recipe-Page-Challenge/)
 
 ## My process
+
+1. Initialized project as a public repository 
+2. Configured repository to publish your code to a web address. 
+3. Looked through the designs to started planning. 
+4. Wrote HTML first then added CSS.
+5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+6. Started adding styles to the top of the page and work down. Jumped back and forth for a while.
+7. Couldnt lauch the github page had to delete a folder within a folder mishap
+
 
 ### Built with
 
@@ -79,11 +88,13 @@ This one was a little hard because there were so many different components with 
 I need to work on table elements. This challenege made me want to do more projects. 
 
 
+I could not deploy my page live for some reason after not finding the answer I double checked the vscode files and realized I had a file within a file. I deleted one then relaunced as github couldnt find my html file within a folder.
+
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- (https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_lists/Consistent_list_indentation) - This helped me with indentation. I really liked this solution and will use it going forward.
+
 
 
 
